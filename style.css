@@ -92,6 +92,10 @@ body{
     color:#fff;
     font-weight: 300;
 }
+.contact-info ul li span a{
+    text-decoration: none;
+    color:#fff;
+}
 .contact-info.education li{
     list-style: none;
     margin-bottom: 20px;
@@ -127,6 +131,7 @@ body{
 
 
 /* ***Right Side Section*** */
+
 .container .right_side{
     position: relative;
     background-color: #fff;
@@ -144,6 +149,9 @@ body{
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+.bold{
+    font-weight: 700;
 }
 .about p{
     color: #333;
