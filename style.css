@@ -1,6 +1,10 @@
+/* ***Poppins Font Added*** */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@400;600;700&display=swap');
 
-/* **Style Start** */
+
+
+/* ***Style Start*** */
 *{
     font-family: 'Poppins', sans-serif;
     padding: 0;
@@ -23,6 +27,9 @@ body{
     grid-template-columns:1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0,.1);
 }
+
+
+/* ***Left Sided Started*** */
 .container .left_side{
     position: relative;
     background-color: #003147;
@@ -63,6 +70,8 @@ body{
     font-size: .8em;
     font-weight: 300;
 }
+
+/* ***Contact info Started*** */
 .contact-info{
     padding-top: 40px;
 }
@@ -100,6 +109,8 @@ body{
     list-style: none;
     margin-bottom: 20px;
 }
+
+/* ***Education Started*** */
 .contact-info.education h5{
     color: #03a9f4;
     font-weight: 500;
@@ -112,6 +123,8 @@ body{
     color:#fff;
     font-weight: 300;
 }
+
+/* ***Language Started*** */
 .contact-info.language .percent{
     position: relative;
     width: 100%;
@@ -127,10 +140,10 @@ body{
     height: 100%;
     background: #03a9f4;
 }
+/* ***Left Sided Ended*** */
 
 
-
-/* ***Right Side Section*** */
+/* ***Right Side Started*** */
 
 .container .right_side{
     position: relative;
@@ -156,6 +169,9 @@ body{
 .about p{
     color: #333;
 }
+
+
+/* ***Experience Started*** */
 .about .box{
     display: flex;
     flex-direction: row;
@@ -174,6 +190,8 @@ body{
     color: #2a7da2;
     font-size: 16px;
 }
+
+/* ***Skills Started*** */
 .skills .box{
     position: relative;
     width: 100%;
@@ -200,6 +218,8 @@ body{
     height: 100%;
     background: #03a9f4;
 }
+
+/* ***Interest Started*** */
 .interest ul{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -215,6 +235,11 @@ body{
     font-size: 18px;
     width: 20px;
 }
+/* ***Right Side Ended*** */
+
+
+
+/* ***Responsive Media Query Started*** */
 @media screen and (max-width: 600px) {
     .container{
         grid-template-columns: repeat(1,1fr);
@@ -233,7 +258,7 @@ body{
     }
 }
 
-@media screen and (min-width: 600px) and (max-width:1000px) {
+@media screen and (min-width: 600px) and (max-width:960px) {
     .container{
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
@@ -241,7 +266,5 @@ body{
     .interest ul{
         grid-template-columns: repeat(2,1fr);
     }
-
-
-    
 }
+           /* ***Happy Cooding*** */
